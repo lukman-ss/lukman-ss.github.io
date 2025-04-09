@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lukman | Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="80">
+
+<!-- Navbar -->
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark shadow-lg">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">💻 LUKMAN</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section id="home" class="vh-100 d-flex align-items-center text-white hero-section">
+  <div class="container text-center">
+    <h1 class="display-4 fw-bold glow-text">Hi, I’m Lukman</h1>
+    <p class="lead fs-4 mt-3" id="typing-text">Project Manager | Fullstack Dev | Data Engineer</p>
+    <a href="#about" class="btn btn-lg btn-outline-info mt-4">Know Me More</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5 bg-light text-center">
+  <div class="container">
+    <h2 class="mb-4 fw-bold">🧑‍💻 About Me</h2>
+    <p class="lead">Hello! I’m Lukman, a Junior Manager actively looking for new opportunities where I can bring my versatile skills in tech leadership, software development, and data engineering to the table. I'm passionate about building things that matter and leading projects with a blend of creativity and logic.</p>
+    <p class="mb-0">My roles include:</p>
+    <ul class="list-unstyled fs-5">
+      <li>📌 Project Manager</li>
+      <li>💻 Fullstack Developer</li>
+      <li>🎨 Front-end Developer</li>
+      <li>⚙️ Back-end Developer</li>
+      <li>🧮 Data Engineer</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Education Timeline -->
+<section id="education" class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-5">🎓 Education</h2>
+      <div class="timeline">
+  
+        <!-- Timeline Item Left -->
+        <div class="timeline-item left">
+            <div class="timeline-content shadow-sm">
+                <h5 class="fw-bold"><i class="bi bi-mortarboard-fill me-2"></i>Sarjana S1</h5>
+                <p class="mb-1 text-muted">STMIK JAYAKARTA • Feb 2018 - Feb 2023</p>
+                <p class="small text-secondary">S1 - Teknik Informatika</p>
+            </div>
+        </div>
+  
+        <!-- Timeline Item Right -->
+        <div class="timeline-item right">
+            <div class="timeline-content shadow-sm">
+                <h5 class="fw-bold"><i class="bi bi-mortarboard-fill me-2"></i>Pelatihan</h5>
+                <p class="mb-1 text-muted">Bootcamp Dibimbing • Agust 2023 - Des 2023</p>
+                <p class="small text-secondary">Data Engineer</p>
+            </div>
+        </div>
+          
+      </div>
+    </div>
+  </section>
+  
+
+<!-- Projects -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center fw-bold mb-5">🚧 Projects</h2>
+    <div class="row g-4">
+      <!-- Project 1 -->
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div id="carouselProject1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/tms/TMS1.jpeg" class="d-block w-100" alt="TMS Screenshot 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/tms/TMS2.jpeg" class="d-block w-100" alt="TMS Screenshot 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/tms/TMS3.jpeg" class="d-block w-100" alt="TMS Screenshot 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/tms/TMS4.jpeg" class="d-block w-100" alt="TMS Screenshot 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject1" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">TMS (Trip Management System)</h5>
+            <p class="card-text">A web-based system to track and manage vehicle trips, trip history, event markers, and timelines using real-time location data.</p>
+            <button class="btn btn-outline-secondary btn-sm" disabled>Private Repositories</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Project 2 -->
+      <div class="col-md-6">
+        <div class="card shadow">
+          <div id="carouselProject2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="assets/images/cmmsv2/CMMS1.jpeg" class="d-block w-100" alt="CMMS Screenshot 1">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cmmsv2/CMMS2.jpeg" class="d-block w-100" alt="CMMS Screenshot 2">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cmmsv2/CMMS3.jpeg" class="d-block w-100" alt="CMMS Screenshot 3">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/images/cmmsv2/CMMS4.jpeg" class="d-block w-100" alt="CMMS Screenshot 4">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProject2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselProject2" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Computerized Maintenance Vehicle Management System V2</h5>
+            <p class="card-text">
+              A robust vehicle maintenance management system designed for workshop automation. Features include preventive maintenance scheduling, spare part tracking, and real-time reporting.
+            </p>
+            <button class="btn btn-outline-secondary btn-sm" disabled>Private Repositories</button>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- Add more project cards as needed -->
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5 bg-dark text-white">
+    <div class="container text-center">
+        <h2 class="fw-bold mb-4">📬 Contact Me</h2>
+        <p class="fs-5">Let's connect! I'm always open to new opportunities, collaborations, or just chatting tech.</p>
+        
+        <div class="d-flex flex-column align-items-center gap-3 mt-4">
+        <div>
+            <i class="fas fa-envelope me-2"></i>
+            <a href="mailto:lukmanumb1@gmail.com" class="text-info text-decoration-none">lukmanumb1@gmail.com</a>
+        </div>
+        <div>
+            <i class="fab fa-linkedin me-2"></i>
+            <a href="https://linkedin.com/in/lukman-lukman-545b3a1a1/" target="_blank" class="text-info text-decoration-none">linkedin.com/in/lukman-lukman-545b3a1a1/</a>
+        </div>
+        <div>
+            <i class="fab fa-github me-2"></i>
+            <a href="https://github.com/lukman-ss" target="_blank" class="text-info text-decoration-none">github.com/lukman-ss</a>
+        </div>
+        </div>
+    </div>
+</section>
+  
+
+<!-- Footer -->
+<footer class="bg-black text-white text-center py-3">
+  <p class="mb-0">&copy; 2025 Lukman. Built with 💻 + ☕ + 🔥</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
